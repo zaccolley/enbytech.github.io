@@ -1,4 +1,4 @@
-main a {
+.speaker {
   display: block;
   padding-top: 15%;
 }
@@ -8,7 +8,7 @@ footer {
 }
 
 @media screen and (min-width: 30em) {
-  main a {
+  .speaker {
     padding-top: 28%;
   }
 }
