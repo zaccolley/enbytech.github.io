@@ -1,0 +1,14 @@
+main a {
+  display: block;
+  padding-top: 15%;
+}
+
+footer {
+  margin-top: 10%;
+}
+
+@media screen and (min-width: 30em) {
+  main a {
+    padding-top: 28%;
+  }
+}
