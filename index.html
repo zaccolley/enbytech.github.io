@@ -8,7 +8,9 @@ layout: default
       <div class='lh-copy v-mid tc'>
         <a class='speaker f4 fw7 no-underline bg-animate bg-white hover-bg-light-blue black tc aspect-ratio aspect-ratio--6x4'
            href='{{ person.link }}'>
-           {{ person.name }}
+           {{ person.name }}<br />
+           <span>{{ person.location }}</span><br />
+           <span>{{ person.topics | join: ', ' }}</span>
         </a>
       </div>
     </div>
