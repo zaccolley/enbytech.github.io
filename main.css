@@ -3,6 +3,11 @@
   padding-top: 15%;
 }
 
+.speaker span {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
 footer {
   margin-top: 10%;
 }
